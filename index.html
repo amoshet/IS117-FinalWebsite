@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<!-- adds bootstrap and js -->
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<!-- navbar start -->
+<body>
+<nav class="navbar navbar-expand-sm bg-red navbar-dark">
+
+    <!-- Links -->
+    <ul class="navbar-nav font-weight-bold">
+        <li class="navbar-brand">
+            <img src="https://i.imgur.com/K6ZGkZh.png" height="50px" width="50px">
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-black-50 ml-auto" href="index.html">Home</a>
+        </li>
+
+        <!-- Dropdown -->
+        <li class="nav-item px-2 ml-auto">
+            <a class="nav-link text-black-50" href="aboutus.html">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-black-50" data-toggle="dropdown" href="#" id="navbardrop">
+                Online Marketing and Data Privacy
+            </a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="becoming_anonymous.html">Becoming Anonymous</a>
+                <a class="dropdown-item" href="Staying_anonymous.html">Staying Anonymous</a>
+                <a class="dropdown-item" href="Ignorance_Bliss.html">The Deception in Silicon Valley</a>
+                <a class="dropdown-item" href="browser_fingerprints.html">Browser Fingerprints</a>
+                <a class="dropdown-item" href="privacy_and_socialmedia.html">Privacy and Social Media</a>
+                <a class="dropdown-item" href="importance.html">Why Is This Important?</a>
+            </div>
+        </li>
+    </ul>
+</nav>
+<!-- navbar ends -->
+
+<!-- jumbotron
+<div class="jumbotron">
+    <h3>
+        <center>
+            <br>Welcome to our webpage on how the internet works!<br>
+            <br>Click down our Navigation Pane to get insight on each topic that is of your interest. <br>
+            <br>Thank you for visiting our Website!
+    </h3>
+    </center>
+</div>
+-->
+<!-- carousel -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <a href="becoming_anonymous.html"><img class="d-block w-100" src="https://images.unsplash.com/photo-1569087682520-45253cc2e0ee?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="First slide"></a>
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Becoming Anonymous</h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <a href="Staying_anonymous.html"><img class="d-block w-100" src="https://images.unsplash.com/photo-1527630941-4a229fd674ab?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=904&q=80" alt="Second slide"></a>
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Staying Anonymous</h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <a href="Ignorance_Bliss.html"><img class="d-block w-100" src="https://images.unsplash.com/photo-1524046997286-863495b9638e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1490&q=80" alt="Second slide"></a>
+            <div class="carousel-caption d-none d-md-block">
+                <h3>The Deception in Silicon Valley</h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <a href="browser_fingerprints.html"><img class="d-block w-100" src="https://images.unsplash.com/photo-1585079374502-415f8516dcc3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTZ8fGJyb3dzZXIlMjBmaW5nZXJwcmludHN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="Second slide"></a>
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Browser Fingerprints</h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <a href="privacy_and_socialmedia.html"><img class="d-block w-100" src="https://images.unsplash.com/photo-1579869847557-1f67382cc158?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8c29jaWFsJTIwbWVkaWF8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="Second slide"></a>
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Privacy and Social Media</h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <a href="importance.html"><img class="d-block w-100" src="https://images.unsplash.com/photo-1603899122634-f086ca5f5ddd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80" alt="Second slide"></a>
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Why Is This Important?</h3>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <main class="container" style="height: 100vh;">
+    </main>
+    <footer class="navbar navbar-default navbar-static-bottom">
+        <div class="container">
+            <p class="navbar-text navbar-left">&copy; Ahmed Moshet and Akash Minocha</p>
+        </div>
+    </footer>
+
+    <html style="height:100%;">
+    <body class="d-flex flex-column h-100">
+    <div class
+    <main class="flex-grow-1">
+    </main>
+    </body>
+    </html>
+
+
+</body>
+
+
+</html>
