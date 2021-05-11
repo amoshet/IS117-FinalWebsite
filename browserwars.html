@@ -7,62 +7,89 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FX3R9NMB10"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-FX3R9NMB10');
+    </script>
+
 </head>
 
 <!-- navbar start -->
-<body>
-<nav class="navbar navbar-expand-sm bg-red navbar-dark">
+<nav class=" navbar navbar-expand-lg
+        navbar-light bg-light static-top py-lg-0 ">
 
-    <!-- Links -->
-    <ul class="navbar-nav font-weight-bold">
-        <li class="navbar-brand">
-            <img src="https://i.imgur.com/K6ZGkZh.png" height="50px" width="50px">
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-black-50 ml-auto" href="index.html">Home</a>
-        </li>
-        <li class="nav-item px-2 ml-auto">
-            <a class="nav-link text-black-50" href="aboutus.html">About Us</a>
-        </li>
+    <a class="navbar-brand px-1">
 
-        <!-- History of the Internet Dropdown -->
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-black-50" data-toggle="dropdown" href="#" id="navbardrop">
-                History of the Internet
-            </a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="history.html">History of the Internet</a>
-                <a class="dropdown-item" href="browserwars.html">Browser Wars</a>
-                <a class="dropdown-item" href="internetsearch.html">Internet Search</a>
-                <a class="dropdown-item" href="dotcom.html">Dot Com Bubble</a>
-                <a class="dropdown-item" href="innovators.html">The Innovators</a>
-            </div>
-        </li>
-        <!-- How Internet Works Dropdown -->
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-black-50" data-toggle="dropdown" href="#" id="navbardrop">
-                How the Internet Works
-            </a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="domain_names.html">Domain Names and ICANN</a>
-                <a class="dropdown-item" href="ip_addressing.html">IP Addresses, Packets, and Routing</a>
-                <a class="dropdown-item" href="dns.html">DNS</a>
-                <a class="dropdown-item" href="http.html">HTTP and HTTPS Protocols</a>
-                <a class="dropdown-item" href="html_css.html">W3C and HTML and CSS</a>
-            </div>
-        </li>
-    </ul>
+        <!-- Add logo with size of 90*80 -->
+        <img src=
+                     "https://i.imgur.com/K6ZGkZh.png"
+             width="90" height="80" alt="">
+    </a>
+
+    <button class="navbar-toggler" type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse px-5"
+         id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item px-1">
+                <a class="nav-link" href="index.html">Home
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item dropdown px-1">
+                <a class="nav-link dropdown-toggle text-black-50" data-toggle="dropdown" href="#" id="navbardrop">
+                    History of the Internet
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="history.html">History of the Internet</a>
+                    <a class="dropdown-item" href="browserwars.html">Browser Wars</a>
+                    <a class="dropdown-item" href="internetsearch.html">Internet Search</a>
+                    <a class="dropdown-item" href="dotcom.html">Dot Com Bubble</a>
+                    <a class="dropdown-item" href="innovators.html">The Innovators</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-black-50" data-toggle="dropdown" href="#" id="navbardrop">
+                    How the Internet Works
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="domain_names.html">Domain Names and ICANN</a>
+                    <a class="dropdown-item" href="ip_addressing.html">IP Addresses and Packets</a>
+                    <a class="dropdown-item" href="dns.html">DNS</a>
+                    <a class="dropdown-item" href="http.html">HTTP and HTTPS Protocols</a>
+                    <a class="dropdown-item" href="html_css.html">W3C and HTML and CSS</a>
+                </div>
+            </li>
+        </ul>
+    </div>
 </nav>
+</body>
+
+</html>
 <!-- navbar ends -->
 
 <div class="container-fluid text-center">
     <div class="row content">
-        <div class="col-sm-2 sidenav">
+        <div class="col-sm-1 sidenav">
         </div>
         <div class="col-sm-8 text-left">
-            <h1>The Deception in Silicon Valley</h1>
+            <h1>Browser Wars</h1>
             <p>
-                A monumental book by Shoshana Zuboff, called ‘The age of Capitalism’ exposes the dubious mechanisms of our digital economy. According to Zuboff our personal and private experiences have been hijacked by Silicon Valley and used as the raw material for extremely profitable digital products. The term surveillance capitalism is not an arbitrary term. Why must it be called surveillance? In their words, its must be operations that are engineered as undetectable and cloaked promoted ads, while their true intentions are for us to be their consumer purchasing puppets.
+                For anyone that is currently on our website right now and reading through it, youre using a browser to visit this site. Some of the popular ones in todays day and age are Firefox, Google Chrome and Safari. However, lets take you back to how it all began...
             </p>
             <!-- picture -->
             <div class="card">
@@ -71,29 +98,12 @@
             <!-- bullet points -->
             <h3>Things to consider...</h3>
             <ul>
-                <li>What really happens with our Digital content?  </li>
-                <li>Why are their hidden microphones in Google Nest? </li>
-                <li>Also, never answer security questions online completely truthfully because these are easily accessible by hackers can find a way to guess your general responses or find the answers online.</li>
+                <br>
+                <li>In 1992, Erwise was created which was an Internet Browser and the first to have a graphical interface.</li>
+                <li>In 1993, Mosaic was created and this is what popularized surfing the web. </li>
+                <li>In 1994, Mosaic influenced many more browsers to follow including Netscape Navigator, which became the most popular web browser at the time accounting for 90% of the web usage in 1995.</li>
             </ul>
-
-            <h3>Some people would say...</h3>
-            <ul>
-                <li>“I like those targeted ads.”</li>
-                <li>“Those ads are so useful, or I enjoy personalized services.”</li>
-                <li>“You know, I have nothing to hide so I don’t care what the take”</li>
-            </ul>
-            <hr>
-            <p>
-                The truth is, each one of these phrases is a misconception for what is really going on because we as consumers only think that the only personal information, they have on us is what we have given them. As if we have some control over what we can give them and therefore we think that everything is under control.
-            </p>
-            <hr/>
-
-            <h3>What's really happening...</h3>
-            <ul>
-                <li>We provide personal information, but the information we provide is the least important part of the information they collect about us.</li>
-                <li>Google knows where we are all the time and what we think.</li>
-                <li>Facebook knows our hobbies, preferences, and friends because of all the digital traces we’ve left behind.</li>
-            </ul>
+            <p>Alongside these Browser come ups, in the early 90s companies like AOL started to provide Dial-Up internet access. Dial Up is a method of connecting to the internet via a telephone line and to further explain the line was connected to a Modem and the other end was plugged into the phone jack. This was the period in which you couldnt use the telephone and the internet at the same time. </p>
 
         </div>
         <div class="col-sm-2 sidenav">

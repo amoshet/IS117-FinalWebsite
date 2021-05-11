@@ -8,52 +8,78 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FX3R9NMB10"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-FX3R9NMB10');
+    </script>
 </head>
 
 <!-- navbar start -->
-<body>
-<nav class="navbar navbar-expand-sm bg-red navbar-dark">
+<nav class=" navbar navbar-expand-lg
+        navbar-light bg-light static-top py-lg-0 ">
 
-    <!-- Links -->
-    <ul class="navbar-nav font-weight-bold">
-        <li class="navbar-brand">
-            <img src="https://i.imgur.com/K6ZGkZh.png" height="50px" width="50px">
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-black-50 ml-auto" href="index.html">Home</a>
-        </li>
-        <li class="nav-item px-2 ml-auto">
-            <a class="nav-link text-black-50" href="aboutus.html">About Us</a>
-        </li>
+    <a class="navbar-brand px-1">
 
-        <!-- History of the Internet Dropdown -->
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-black-50" data-toggle="dropdown" href="#" id="navbardrop">
-                History of the Internet
-            </a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="history.html">History of the Internet</a>
-                <a class="dropdown-item" href="browserwars.html">Browser Wars</a>
-                <a class="dropdown-item" href="internetsearch.html">Internet Search</a>
-                <a class="dropdown-item" href="dotcom.html">Dot Com Bubble</a>
-                <a class="dropdown-item" href="innovators.html">The Innovators</a>
-            </div>
-        </li>
-        <!-- How Internet Works Dropdown -->
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-black-50" data-toggle="dropdown" href="#" id="navbardrop">
-                How the Internet Works
-            </a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="domain_names.html">Domain Names and ICANN</a>
-                <a class="dropdown-item" href="ip_addressing.html">IP Addresses, Packets, and Routing</a>
-                <a class="dropdown-item" href="dns.html">DNS</a>
-                <a class="dropdown-item" href="http.html">HTTP and HTTPS Protocols</a>
-                <a class="dropdown-item" href="html_css.html">W3C and HTML and CSS</a>
-            </div>
-        </li>
-    </ul>
+        <!-- Add logo with size of 90*80 -->
+        <img src=
+                     "https://i.imgur.com/K6ZGkZh.png"
+             width="90" height="80" alt="">
+    </a>
+
+    <button class="navbar-toggler" type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse px-5"
+         id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item px-1">
+                <a class="nav-link" href="index.html">Home
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item dropdown px-1">
+                <a class="nav-link dropdown-toggle text-black-50" data-toggle="dropdown" href="#" id="navbardrop">
+                    History of the Internet
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="history.html">History of the Internet</a>
+                    <a class="dropdown-item" href="browserwars.html">Browser Wars</a>
+                    <a class="dropdown-item" href="internetsearch.html">Internet Search</a>
+                    <a class="dropdown-item" href="dotcom.html">Dot Com Bubble</a>
+                    <a class="dropdown-item" href="innovators.html">The Innovators</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-black-50" data-toggle="dropdown" href="#" id="navbardrop">
+                    How the Internet Works
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="domain_names.html">Domain Names and ICANN</a>
+                    <a class="dropdown-item" href="ip_addressing.html">IP Addresses and Packets</a>
+                    <a class="dropdown-item" href="dns.html">DNS</a>
+                    <a class="dropdown-item" href="http.html">HTTP and HTTPS Protocols</a>
+                    <a class="dropdown-item" href="html_css.html">W3C and HTML and CSS</a>
+                </div>
+            </li>
+        </ul>
+    </div>
 </nav>
+</body>
+
+</html>
 <!-- navbar ends -->
 
 <!-- jumbotron
